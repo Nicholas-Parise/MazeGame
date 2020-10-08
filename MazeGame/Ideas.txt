@@ -1,0 +1,24 @@
+Maze Game: enemys chase you in a randomly generated maze
+- Start 0,0
+- Go to randomly generated exit
+- enemy chases you
+- if you and the zombie are in the same tile you die
+
+	   - render window? or Console Game?
+
+       	          ------------|--------------
+-Pro looks cool   	      | - Pro Easy to do
+-con don't know how	      | - Con Might be hard to see maze
+-Pro Easy to see Where going  | - Pro
+			      | - Con
+
+Desision: Make Console Game But try to lear how to do Render Window.
+
+-----------------------
+
+pathfinding & maze generation :(
+
+PathFinding - modify pacman maze solver and convert it into a Maze Solver.
+Maze Generation - Use PathFinding algorithm as a base https://en.wikipedia.org/wiki/Maze_generation_algorithm
+the exit - use The maze solver algorithm to find the largest possible path.
+
