@@ -3,25 +3,25 @@
 * ICS4U
 * Maze Game
 */
+
 public class Entity{
 
-    int CurrentRow = 0;
-    int CurrentCol = 0;
- 
-    boolean Dead = false;
-    int Health = 2;
-
-
-    public  void SetPosition(int row, int col) {
-
+	public static int CurrentRow = 0;
+    public static int CurrentCol = 0;
+		
+    public static void SetPosition(int row, int col) {
     CurrentRow = row;
     CurrentCol = col;
     }
 
-    public void Test() {
+    public static int GetPositionRow() {
 
-        System.out.println("aaaasadsaadsa");
+        return CurrentRow;
+    }
 
+    public static int GetPositionCol() {
+
+        return CurrentCol;
     }
 
 
